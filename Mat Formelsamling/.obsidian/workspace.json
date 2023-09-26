@@ -11,11 +11,9 @@
             "id": "3b755ca1f0e2d54f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Formelsamling Matematik.md",
-                "mode": "source",
-                "source": false
+                "file": "Screenshots/Pasted image 20230926154243.png"
               }
             }
           }
@@ -87,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b3bdeb2e24ba4cc0",
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formelsamling Matematik.md",
+                "file": "Screenshots/Pasted image 20230926154243.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formelsamling Matematik.md",
+                "file": "Screenshots/Pasted image 20230926154243.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formelsamling Matematik.md"
+                "file": "Screenshots/Pasted image 20230926154243.png"
               }
             }
           }
@@ -165,14 +162,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b755ca1f0e2d54f",
+  "active": "86f7862e7a5eb498",
   "lastOpenFiles": [
-    "Pasted image 20230926154243.png",
-    "Pasted image 20230926154141.png",
-    "Pasted image 20230926154005.png",
+    "Formelsamling Matematik.md",
+    "Screenshots",
+    "Screenshots/Pasted image 20230926154243.png",
+    "Screenshots/Pasted image 20230926154141.png",
+    "Screenshots/Pasted image 20230926154005.png",
     "Kompleksetalkompendium.pdf",
-    "Formelsamling Matematik.md",
-    "Formelsamling Matematik.md",
     "Formelsamling mat.pdf"
   ]
 }
