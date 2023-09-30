@@ -223,3 +223,66 @@ $$
 \vec{a}=a_{1} \vec{\cdot}i+a_{2} \vec{\cdot}j=\begin{bmatrix}  a_{1} \\ a_{2} \end{bmatrix}
 $$
 
+#### (43) Enhedsvektor
+![[Pasted image 20230930110324.png]]
+$$
+\vec{e}={\begin{bmatrix}
+\cos(v) \\ \sin(v) \\
+\end{bmatrix}}
+$$
+#### (44) Enhedsvektor $\vec{e}$ ensrettet med $\vec{a}$
+$$
+\vec{e}=\frac{\vec{a}}{|\vec{a}|}
+$$
+#### (45) Længden af vektor $\vec{a}$
+![[Pasted image 20230930110548.png]]
+$$
+|\vec{a}|=\begin{bmatrix}
+a_{1} \\ a_{2}
+\end{bmatrix}
+= \sqrt{ a_{1}²+a_{2}² }
+$$
+#### (46) Multiplikation af vektor $\vec{a}$ med tallet $k$
+$$
+k \cdot \vec{a}=k \cdot \begin{bmatrix}
+a_{1} \\ a_{2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+k \cdot \vec{a} \\ k \cdot \vec{a_{2}}
+\end{bmatrix}
+$$
+#### (47) Summen af to vektorer
+![[Pasted image 20230930111027.png]]
+$$
+\vec{a}+\vec{b}=\begin{bmatrix}
+a_{1} \\ a_{2}
+\end{bmatrix}
++
+\begin{bmatrix}
+b_{1} \\ b_{2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+a_{1}+b_{1} \\ a_{2}+b_{2}
+\end{bmatrix}
+$$
+#### (48) Differensen mellem to vektorer
+![[Pasted image 20230930111253.png]]
+$$
+\vec{a}-\vec{b}=\begin{bmatrix}
+a_{1} \\ a_{2}
+\end{bmatrix}
+-
+\begin{bmatrix}
+b_{1} \\ b_{2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+a_{1}-b_{1} \\ a_{2}-b_{2}
+\end{bmatrix}
+$$
+#### (49) Koordinatsættet for vektor $\vec{AB}$
+$$
+
+$$

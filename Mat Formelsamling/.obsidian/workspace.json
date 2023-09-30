@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b3bdeb2e24ba4cc0",
@@ -166,15 +167,19 @@
   },
   "active": "3b755ca1f0e2d54f",
   "lastOpenFiles": [
+    "Screenshots/Pasted image 20230930111253.png",
+    "Screenshots/Pasted image 20230930111211.png",
+    "Screenshots/Pasted image 20230930111027.png",
+    "Screenshots/Pasted image 20230930111019.png",
+    "Screenshots/Pasted image 20230930110548.png",
+    "Screenshots/Pasted image 20230930110546.png",
+    "Screenshots/Pasted image 20230930110324.png",
     "Screenshots/Pasted image 20230930103022.png",
     "Screenshots/Pasted image 20230930102648.png",
     "Screenshots/Pasted image 20230930102529.png",
     "Screenshots/Pasted image 20230930101936.png",
-    "Screenshots/Pasted image 20230926154243.png",
     "Formelsamling Matematik.md",
     "Screenshots",
-    "Screenshots/Pasted image 20230926154141.png",
-    "Screenshots/Pasted image 20230926154005.png",
     "Kompleksetalkompendium.pdf",
     "Formelsamling mat.pdf"
   ]
