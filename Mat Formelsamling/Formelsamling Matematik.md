@@ -161,3 +161,65 @@ $$
 $$
 ### Ensvinklede Trekanter
 #### (31)
+![[Pasted image 20230930101936.png|300]]
+$$
+\frac{a_{1}}{a}=\frac{b_{1}}{b}=\frac{c_{1}}{c}=k
+$$
+#### (32)
+$$
+a_{1}=k \cdot a
+$$
+$$
+b_{1}=k \cdot b
+$$
+$$
+c_{1}=k \cdot c
+$$
+
+### Retvinklet Trekanter
+#### (33) Pythagoras' sætning
+$$
+c²=a²+b²
+$$
+#### (34) cosinus
+$$
+\cos(A)=\frac{b}{c}
+$$
+#### (35) sinus
+$$
+\sin(A)=\frac{b}{c}
+$$
+#### (36) tangens
+$$
+\tan(A)=\frac{a}{b}
+$$
+### Vilkårlig Trekant
+#### (37) Trekantens Vinkelsum
+![[Pasted image 20230930102529.png]]
+$$
+A+B+C=180\degree
+$$
+#### (38) Trekantens Areal $T$
+$$
+T=\frac{1}{2} \cdot a \cdot b \cdot \sin(C)
+$$
+#### (39) Cosinusrelation
+![[Pasted image 20230930102648.png]]
+$$
+c²=a²+b²-2a \cdot b \cdot \cos(C)
+$$
+#### (40) Sinusrelation
+$$
+\frac{a}{\sin(A)}=\frac{b}{\sin(B)}=\frac{c}{\sin(C)}
+$$
+#### (41) Trekantens Areal $T$
+$$
+T=\frac{1}{2} \cdot a \cdot b \cdot \sin(C)
+$$
+### Vektorer i planet
+#### (42) Koordinatsættet for  vektor $\vec{a}$
+![[Pasted image 20230930103022.png]]
+$$
+\vec{a}=a_{1} \vec{\cdot}i+a_{2} \vec{\cdot}j=\begin{bmatrix}  a_{1} \\ a_{2} \end{bmatrix}
+$$
+

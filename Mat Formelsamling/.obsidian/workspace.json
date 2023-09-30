@@ -11,9 +11,11 @@
             "id": "3b755ca1f0e2d54f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Screenshots/Pasted image 20230926154243.png"
+                "file": "Formelsamling Matematik.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Screenshots/Pasted image 20230926154243.png",
+                "file": "Formelsamling Matematik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Screenshots/Pasted image 20230926154243.png",
+                "file": "Formelsamling Matematik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Screenshots/Pasted image 20230926154243.png"
+                "file": "Formelsamling Matematik.md"
               }
             }
           }
@@ -162,11 +164,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86f7862e7a5eb498",
+  "active": "3b755ca1f0e2d54f",
   "lastOpenFiles": [
+    "Screenshots/Pasted image 20230930103022.png",
+    "Screenshots/Pasted image 20230930102648.png",
+    "Screenshots/Pasted image 20230930102529.png",
+    "Screenshots/Pasted image 20230930101936.png",
+    "Screenshots/Pasted image 20230926154243.png",
     "Formelsamling Matematik.md",
     "Screenshots",
-    "Screenshots/Pasted image 20230926154243.png",
     "Screenshots/Pasted image 20230926154141.png",
     "Screenshots/Pasted image 20230926154005.png",
     "Kompleksetalkompendium.pdf",
