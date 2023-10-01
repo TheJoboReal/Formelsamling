@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "2f9e9e6a79dfc89e",
+    "type": "split",
+    "children": [
+      {
+        "id": "916d0f33ea8fd1ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4898cfc33952690a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mat Formelsamling/Formelsamling Matematik.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e09bf3706ed44b90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65c63dbe5ddb460b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mat Formelsamling/Formelsamling mat.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0938b02c8bc71e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb50ca45d191aa7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f64b074d3217004d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "307068ab75cee97c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d0516532fa96118d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "31c5480b88aada96",
+    "type": "split",
+    "children": [
+      {
+        "id": "59b8c814f85ef86b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "264ca1cde5b30abb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Mat Formelsamling/Formelsamling Matematik.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1556ef7c0d6482a7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Mat Formelsamling/Formelsamling Matematik.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d84d5b230b5769",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e4cfce76d31a88da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mat Formelsamling/Formelsamling Matematik.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4898cfc33952690a",
+  "lastOpenFiles": [
+    "Mat Formelsamling/Screenshots/Pasted image 20231002002707.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231002001919.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231002001402.png",
+    "Mat Formelsamling/Formelsamling mat.pdf",
+    "Mat Formelsamling/Formelsamling Matematik.md",
+    "Mat Formelsamling/Screenshots/Pasted image 20231002001303.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231002001036.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231002000406.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231002000242.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231001235801.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231001235149.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231001234810.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231001233911.png"
+  ]
+}

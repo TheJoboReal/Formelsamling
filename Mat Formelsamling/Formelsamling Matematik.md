@@ -3,7 +3,7 @@
 
 ***
 
-### Procen- og rentesregning
+### Procent- og rentesregning
 #### (1)
 Begyndelsesværdid $B$
 Slutværdi $S$
@@ -282,7 +282,154 @@ b_{1} \\ b_{2}
 a_{1}-b_{1} \\ a_{2}-b_{2}
 \end{bmatrix}
 $$
-#### (49) Koordinatsættet for vektor $\vec{AB}$
+#### (49) Koordinatsættet for vektor $\overrightarrow{AB}$
+![[Pasted image 20231001230016.png]]
+$$
+\overrightarrow{AB} = \begin{bmatrix}
+x_2 - x_1 \\
+y_2 - y_1 
+\end{bmatrix}
+$$
+#### Skalarproduktet (prikproduktet) af $\vec{a}$ og $\vec{b}$ 
+![[Pasted image 20231001230554.png]]
+$$
+\begin{aligned}
+(50)\;\;\;\; \vec{a} \cdot \vec{b} &= a_1 b_1 + a_2 b_2 \\
+(51)\;\;\;\; \vec{a} \cdot \vec{b} &= \vert \vec{a} \vert \cdot \vert \vec{b} \vert \cdot cos(v) \\
+(52)\;\;\;\; cos(v) &= \frac{\vec{a} \cdot \vec{b}}{\vert \vec{a} \vert \cdot \vert \vec{b} \vert} \\
+\end{aligned}
+$$
+#### (53) Ortogonale vektorer
+$$
+\vec{a} \cdot \vec{b} = 0 \leftrightarrow \vec{a} \perp \vec{b}
 $$
 
+#### (54) kvadratet på en vektor
 $$
+\vec{a} \cdot \vec{a} = \vec{a}^2 = \vert \vec{a} \vert^2
+$$
+#### (55) Projektion af vektor på vektor
+![[Pasted image 20231001232040.png]]
+$$
+\vec{b_a} = \frac{\vec{a} \cdot \vec{b}}{\vert \vec{a} \vert^2} \cdot \vec{a}
+$$
+#### (56) Længden af projektionen
+$$
+\vert \vec{b_a} \vert = \frac{\vert \vec{a} \cdot \vec{b} \vert}{\vert \vec{a} \vert }
+$$
+#### (57) Tværvektoren til $\vec{a}$ 
+![[Pasted image 20231001232412.png]]
+$$
+\hat{\vec{a}} = \hat{\begin{bmatrix} a_1 \\ a_2 \end{bmatrix}} = \begin{bmatrix} -a_2 \\ a_1 \end{bmatrix}
+$$
+#### Determinanten for vektorparret $(\vec{a},\vec{b})$ 
+$$
+\begin{aligned}
+(58)\;\;\;\; det(\vec{a},\vec{b}) &= \hat{\vec{a}} \cdot \vec{b} = a_1 b_2 - a_2 b_1 = \begin{vmatrix} a_1 & b_1 \\ a_2 & b_2 \end{vmatrix} \\
+(59)\;\;\;\; det(\vec{a},\vec{b}) &= \vert \vec{a} \vert \cdot \vert \vec{b} \vert \cdot sin(v)
+\end{aligned}
+$$
+#### (60) Parallelle vektorer
+$$
+det(\vec{a},\vec{b}) = 0 \leftrightarrow \vec{a} \parallel \vec{b}
+$$
+#### (61) Arealet af det parallelogram, som udspændes af $\vec{a}$ og $\vec{b}$ 
+$$ A = \vert det(\vec{a},\vec{b}) \vert $$
+### Linjer, cirkler og parabler
+#### (62) Ligning for linjen $l$ gennem $Q(0,b)$ med hældningskoefficient $a$ 
+![[Pasted image 20231001233911.png]]
+$$ y = a \cdot x + b$$
+#### (63) Hældningskoefficient (stigningstal) $a$ for linjen $l$ gennem $A(x_1 , y_1)$  og $B(x_2,y_2)$ 
+$$a= \frac{y_2 - y_1}{x_2 - x_1}$$
+#### (64) Skæring med y-aksen
+$$b = y_1 - a \cdot x_1 $$
+#### (65) Ligning for linjen $l$ gennem $A(x_1,y_1)$ med hældningskoefficient $a$
+$$y = a \cdot (x-x_1) + y_1$$
+#### (66) Hældningsvinklen $v$ er vinklen fra førsteaksen til $l$ regnet med fortegn
+$$a = tan(v) $$
+#### (67) Ligning for linjen $l$ gennem $P_0$ med normalvektor $\vec{n}=\begin{bmatrix} a \\ b \end{bmatrix}$ 
+![[Pasted image 20231001234810.png]]
+$$
+a \cdot (x-x_0) + b \cdot (y-y_0) = 0
+$$
+#### (68) Parameterfremstilling for linjen $l$ gennem $P_0$ med retningsvektor $\vec{r} = \begin{bmatrix} r_1 \\ r_2 \end{bmatrix}$ 
+$$
+\begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} x_0 \\ y_0 \end{bmatrix} + t\begin{bmatrix} r_1 \\ r_2 \end{bmatrix}
+$$
+#### (69) Afstand $\vert AB \vert$ mellem to punkter $A(x_1,y_1)$ og $B(x_2,y_2)$ 
+![[Pasted image 20231001235149.png]]
+$$
+\vert AB \vert = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}
+$$
+#### (70) Midtpunkt $M$ for linjestykke $AB$ 
+$$ M \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)$$
+#### (71) Afstand $dist(P,l)$ fra punktet $P(x_1,y_1)$ til linjen $l$ med ligningen $y = a \cdot x + b$ 
+![[Pasted image 20231001235801.png]]
+$$
+dist(P,l) = \frac{\vert a \cdot x_1 + b - y_1 \vert}{\sqrt{a^2 + 1}}
+$$
+#### (72) Afstand $dist(P,l)$ fra punktet $P(x_1,y_1)$ til linjen $l$ med ligningen $a \cdot x + b \cdot y + c = 0$ 
+$$
+dist(P,l) = \frac{\vert a \cdot x_1 + b \cdot y_1 +c \vert}{\sqrt{a^2 + b^2}}
+$$
+#### (73) Ligning for cirkel med centrum i $C(a,b)$ og radius $r$ 
+![[Pasted image 20231002000242.png]]
+$$ (x-a)^2 + (y-b)^2 = r^2 $$
+#### (74) Ligning for parabel med symmetriakse parallel med andenaksen
+![[Pasted image 20231002000406.png]]
+$$ y = a \cdot x^2 + b \cdot x + c = a \cdot (x-h)^2 + k$$
+#### (75) Toppunkt $T$ 
+$$
+T(h,k) = T \left(\frac{-b}{2a}, \frac{-d}{4a} \right)
+$$
+Hvor $d = b^2 - 4ac$ 
+#### (76) Skæringspunkter $S_1$ og $S_2$ med førsteaksen
+$$
+S_1 \left(\frac{-b-\sqrt{d}}{2a},0 \right), \; S_2 \left(\frac{-b+\sqrt{d}}{2a},0 \right)
+$$
+### Lineære funktioner
+#### (77) Førstegradspolynomium, lineær funktion $f$
+![[Pasted image 20231002001036.png]]
+$$f(x) = a \cdot x + b$$
+#### (78) Hældningskoefficienten $a$ (stigningstallet) ud fra to punkter på grafen $(x_1,y_1)$ og $(x_2,y_2)$ 
+![[Pasted image 20231002001303.png]]
+$$a = \frac{y_2 - y_1}{x_2 - x_1}$$
+#### (79) Skæring med y-aksen 
+$$b = y_1 - a \cdot x_1$$
+### Andengradspolynomier
+![[Pasted image 20231002001402.png]]
+#### (80) Andengradspolynomium $p$ med nulpunkter (rødder) $x_1$ og $x_2$ 
+$$p(x) = a \cdot x^2 + b \cdot x + c = a \cdot (x-x_1) \cdot (x-x_2)$$
+#### (81) Nulpunkter (rødder)
+$$ x_1 = \frac{-b-\sqrt{d}}{2a}, \; x_2 = \frac{-b+\sqrt{d}}{2a}$$
+Hvor $d=b^2-4ac$
+#### (82) Toppunkt $T$ 
+$$ T \left(\frac{-b}{2a} , \frac{-d}{4a} \right)$$
+### Logaritmefunktioner
+#### Den naturlige logaritme
+![[Pasted image 20231002001919.png]]
+$$
+\begin{aligned}
+&(83)\;\;\;\; \ln(x) \rightarrow -\infty \;\;\;\; \text{for} \;\;\;\; x \rightarrow 0 \\
+&(84)\;\;\;\; \ln(x) \rightarrow \infty \;\;\;\; \text{for} \;\;\;\; x \rightarrow \infty  \\
+&(85)\;\;\;\; y = \ln(x) \;\;\;\; \leftrightarrow \;\;\;\; x = e^y \\
+&(86)\;\;\;\; \ln(e) = 1 \\
+&(87)\;\;\;\; \ln(a \cdot b) = \ln(a) + \ln(b) \\
+&(88)\;\;\;\; \ln \left( {a \over b} \right) = \ln(a) - \ln(b) \\
+&(89)\;\;\;\; \ln(a^r) = r \cdot \ln(a) \\
+\end{aligned}
+$$
+#### 10-tals logaritmen
+![[Pasted image 20231002002707.png]]
+$$
+\begin{aligned}
+&(90)\;\;\;\; \log(x) \rightarrow -\infty \;\;\;\; \text{for} \;\;\;\; x \rightarrow 0 \\
+&(91)\;\;\;\; \log(x) \rightarrow \infty \;\;\;\; \text{for} \;\;\;\; x \rightarrow \infty  \\
+&(92)\;\;\;\; y = \log(x) \;\;\;\; \leftrightarrow \;\;\;\; x = 10^y \\
+&(93)\;\;\;\; \log(10) = 1 \\
+&(94)\;\;\;\; \log(a \cdot b) = \log(a) + \log(b) \\
+&(95)\;\;\;\; \log \left( {a \over b} \right) = \log(a) - \log(b) \\
+&(96)\;\;\;\; \log(a^r) = r \cdot \log(a) \\
+\end{aligned}
+$$
+### Eksponentielt voksende funktioner
