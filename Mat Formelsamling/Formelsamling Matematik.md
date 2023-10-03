@@ -540,3 +540,61 @@ $$\tan(x) = \frac{\sin(x)}{\cos(x)}$$
 $$f(t) = A \cdot \sin(\omega \cdot t + \phi) + d $$
 #### (128) Periode (svingningstid) $T$ 
 $$T = t_2 - t_1 = {2\pi \over \omega}$$
+### Differentialregning
+#### (129) Differentialkvotienten $f'(x_0)$ for funktionen $f$ i tallet $x_0$ 
+$$
+\begin{align}
+f'(x_0) &= \lim_{x \rightarrow x_0}{\frac{f(x) - f(x_0)}{x - x_0}} \\
+ &= \lim_{h \rightarrow 0}{\frac{f(x_0 + h) - f(x_0)}{h}}
+\end{align}
+$$
+#### (130) Ligning for tangenten $t$ til grafen for $f$ i $P(x_0, f(x_0))$
+![[Pasted image 20231003191040.png]]
+$$
+\begin{align}
+&y = f'(x_0) \cdot (x - x_0) + f(x_0) \\
+& \text{eller} \\
+& y = a \cdot x + b, \\
+&\text{hvor} \;\; a = f'(x_0) \;\; \text{og} \;\; b = y_0 - a \cdot x_0
+\end{align}
+$$
+#### Regneregler for differentiation
+$$
+\begin{align}
+&(131) \;\;\;\; (k \cdot f(x))' = k \cdot f'(x) \\
+&(132) \;\;\;\; (f(x) + g(x))' = f'(x) + g'(x) \\
+&(133) \;\;\;\; (f(x) - g(x))' = f'(x) - g'(x) \\ 
+&(134) \;\;\;\; (f(x) \cdot g(x))' = f'(x) \cdot g(x) + f(x) \cdot g'(x) \\
+&(135) \;\;\;\; (f(a \cdot x + b))' = a \cdot f'(a \cdot x + b) \\
+&(136) \;\;\;\; (f(g(x)))' = f'(g(x)) \cdot g'(x) 
+\end{align}
+$$
+### Afledede funktioner
+
+|Funktionstype|Nummer|Funktion|Afledet funktion|
+|:-:|:-:|:-:|:-:|
+|Lineær funktion|(137)|$a \cdot x+b$|$a$|
+||(138)|$k$|$0$|
+|Logaritmefunktion|(139)|$\ln(x)$|$\frac{1}{x} = x^{-1}$|
+|Eksponentialfunktioner|(140)|$e^x$|$e^x$|
+||(141)|$e^{kx}$|$k \cdot e^{kx}$|
+||(142)|$a^x$|$a^x \cdot \ln(a)$|
+|Potensfunktioner|(143)|$x^a$|$a \cdot x^{a-1}$|
+||(144)|${1 \over x} = x^{-1}$|$-{1 \over x²} = -x^{-2}$|
+||(145)|$\sqrt{x} = x^{1 \over 2}$|${1 \over 2 \sqrt{x}} = {1 \over 2} x^{-{1 \over 2}}$|
+|Trigonometriske funktioner|(146)|$\cos(x)$|$-\sin(x)$|
+||(147)|$\sin(x)$|$\cos(x)$|
+
+### Stamfunktioner 
+|Funktionstype|Nummer|Funktion|Afledet funktion|
+|:-:|:-:|:-:|:-:|
+|Lineær funktion|(148)|$a$|$a \cdot x$|
+|Logaritmefunktion|(149)|$\ln(x)$|$x \cdot \ln(x) -x$|
+|Eksponentialfunktioner|(150)|$e^x$|$e^x$|
+||(151)|$e^{kx}$|${1 \over k} \cdot e^{kx}$|
+||(152)|$a^x$|$a^x \over \ln(a)$|
+|Potensfunktioner|(153)|$x^a$|${1 \over a+1} x^{a+1}$|
+||(154)|${1 \over x} = x^{-1}$|$\ln(\vert x \vert)$|
+||(155)|$\sqrt{x} = x^{1 \over 2}$|${2 \over 3} x \sqrt{x} = {2 \over 3} x^{3 \over 2}$|
+|Trigonometriske funktioner|(156)|$\cos(x)$|$\sin(x)$|
+||(157)|$\sin(x)$|$-\cos(x)$|
