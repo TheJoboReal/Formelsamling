@@ -435,3 +435,168 @@ $$
 \end{aligned}
 $$
 ### Eksponentielt voksende funktioner
+#### Grafen for en eksponentielt voksende funktion $f$ , $a>1$ , vækstraten $r>0$ , $k>0$ 
+![[Pasted image 20231003172841.png]]
+#### (97) Funktionsforskrifter 
+$$
+\begin{align}
+f(x)&=b\cdot a^x \\
+&=b \cdot (1+r)^x \\
+&=b \cdot e^{kx} , \; \text{hvor} \; k=\ln(a)
+\end{align}
+$$
+#### Grænser
+$$(98) \;\;\;\; f(x) \rightarrow \infty \; \; \text{for} \;\; x \rightarrow \infty$$
+$$(98) \;\;\;\; f(x) \rightarrow 0 \; \; \text{for} \;\; x \rightarrow -\infty$$
+#### (100) Fremskrivningsfaktoren $a$ ud fra to punkter på grafen $(x_1,y_1)$ og $(x_2,y_2)$ 
+$$
+a = \sqrt[x_2-x_1]{\frac{y_2}{y_1}} = \left( \frac{y_2}{y_1} \right)^{\frac{1}{x_2-x_1}}
+$$
+#### (101) Skæring med y-aksen
+$$b = {y_1 \over a^{x_1}}$$
+#### Fordoblingskonstanten $T_2$
+![[Pasted image 20231003174223.png]]
+$$(102) \;\;\;\; T_2= x_2 - x_1$$
+$$(103) \;\;\;\; T_2 = \frac{\log(2)}{\log(a)} = \frac{\ln(2)}{\ln(a)} = \frac{\ln(2)}{k}$$
+### Eksponentielt aftagende funktioner
+#### Grafen for den aftagende funktion $f$, $0<a<1$ , vækstraten $r<0$, $k<0$
+![[Pasted image 20231003174707.png]]
+#### (104) Funktionsforskrifter
+$$
+\begin{align}
+f(x)&=b\cdot a^x \\
+&=b \cdot (1+r)^x \\
+&=b \cdot e^{kx} , \; \text{hvor} \; k=\ln(a)
+\end{align}
+$$
+#### Grænser
+$$(105) \;\;\;\; f(x) \rightarrow 0 \; \; \text{for} \;\; x \rightarrow \infty$$
+$$(98) \;\;\;\; f(x) \rightarrow \infty \; \; \text{for} \;\; x \rightarrow -\infty$$
+#### (107) Fremskrivningsfaktoren $a$ ud fra to punkter på grafen $(x_1,y_1)$ og $(x_2,y_2)$ 
+$$
+a = \sqrt[x_2-x_1]{\frac{y_2}{y_1}} = \left( \frac{y_2}{y_1} \right)^{\frac{1}{x_2-x_1}}
+$$
+#### (108) Skæring med y-aksen
+$$b = {y_1 \over a^{x_1}}$$
+#### Halveringskonstanten $T_{1\over2}$ 
+$$(109) \;\;\;\; T_{1\over2} = x_2 - x_1 $$
+$$(110) \;\;\;\; T_{1\over2} = \frac{\log(\frac{1}{2})}{\log(a)} = \frac{\ln(\frac{1}{2}}{\ln(a)} = \frac{\ln(\frac{1}{2})}{k} $$
+### Potensfunktioner
+#### (111) Potensfunktion
+![[Pasted image 20231003175916.png]]
+$$f(x) = b \cdot x^a$$
+#### (112) Bestemmelse af tallet $a$ ud fra to punkter på grafen $(x_1,y_1)$ og $(x_2,y_2)$ 
+$$
+a = \frac{\log(y_2)-\log(y_1)}{\log(x_2)-\log(x_1)} = \frac{\ln(y_2)-\ln(y_1)}{\ln(x_2)-\ln(x_1)}
+$$
+#### (113) Bestemmelse af $b$
+$$b = {y_1 \over x_1^a}$$
+#### (114) Når $x$ ganges med tallet $1+r_x$, så ganges $f(x)$ med tallet $1+r_y$ 
+$$1 + r_y = (1+r_x)^a$$
+#### (115) Når $x$ ganges med tallet $k$, så ganges $f(x)$ med tallet $k^a$
+$$f(k \cdot x) = k^a \cdot f(x)$$
+### Trigonometriske funktioner
+![[Pasted image 20231003180914.png]]
+#### (116) Gradtal $v$ omsat til radiantal $x$ 
+$$x = {v \over 360} \cdot 2\pi \; \text{radian}$$
+#### (117) Radiantal $x$ omsat til gradtal $v$ 
+$$v = {x \over 2\pi} \cdot 360 \; \text{grader}$$
+#### (118) Definition af $\cos(x)$ og $\sin(x)$ 
+![[Pasted image 20231003181312.png]]
+$$\cos^2(x) + \sin²(x) = 1$$
+#### Grafen for cosinus
+![[Pasted image 20231003181448.png]]
+#### Grafen for sinus
+![[Pasted image 20231003181510.png]]
+#### Trigonometriske tips og tricks
+$$
+\begin{align}
+&(119)\;\;\;\; \cos(x+2\pi) = \cos(x) \\
+&(120)\;\;\;\; \cos(-x) = \cos(x) \\
+&(121)\;\;\;\; \cos(\pi - x) = -\cos(x) \\
+&(122)\;\;\;\; \sin(x + 2\pi) = \sin(x) \\
+&(123)\;\;\;\; \sin(-x) = -\sin(x) \\
+&(124)\;\;\;\; \sin(\pi - x) = \sin(x)
+\end{align}
+$$
+#### Trigonometriske identiteter
+
+##### Halvvinkel identiteter
+$$\sin²(\theta) = \frac{1-\cos(2 \theta)}{2}$$
+$$\cos²(\theta) = \frac{1+\cos(2\theta)}{2}$$
+$$\tan²(\theta) = \frac{1 - \cos(2 \theta)}{1 + \cos(2\theta)}$$
+##### Dobbelvinkel identiteter
+$$\sin(2\theta) = 2 \sin(\theta) \cos(\theta)$$
+$$\cos(2\theta) = \cos²(\theta) - \sin²(\theta)$$
+$$\cos(2\theta) = 2\cos²(\theta)-1$$
+$$\cos(2\theta) = 1- 2 \sin(\theta)$$
+$$\tan(2\theta) = \frac{2\tan(\theta)}{1 - \tan²(\theta)}$$
+#### (125) Definition af tangens
+![[Pasted image 20231003183609.png]]
+$$\tan(x) = \frac{\sin(x)}{\cos(x)}$$
+#### (126) Udvalgte funktionsværdier
+![[Pasted image 20231003183739.png]]
+
+#### (127) Harmonisk svingning $f$, med amplitude $A$ og periode $T$
+![[Pasted image 20231003183933.png]]
+$$f(t) = A \cdot \sin(\omega \cdot t + \phi) + d $$
+#### (128) Periode (svingningstid) $T$ 
+$$T = t_2 - t_1 = {2\pi \over \omega}$$
+### Differentialregning
+#### (129) Differentialkvotienten $f'(x_0)$ for funktionen $f$ i tallet $x_0$ 
+$$
+\begin{align}
+f'(x_0) &= \lim_{x \rightarrow x_0}{\frac{f(x) - f(x_0)}{x - x_0}} \\
+ &= \lim_{h \rightarrow 0}{\frac{f(x_0 + h) - f(x_0)}{h}}
+\end{align}
+$$
+#### (130) Ligning for tangenten $t$ til grafen for $f$ i $P(x_0, f(x_0))$
+![[Pasted image 20231003191040.png]]
+$$
+\begin{align}
+&y = f'(x_0) \cdot (x - x_0) + f(x_0) \\
+& \text{eller} \\
+& y = a \cdot x + b, \\
+&\text{hvor} \;\; a = f'(x_0) \;\; \text{og} \;\; b = y_0 - a \cdot x_0
+\end{align}
+$$
+#### Regneregler for differentiation
+$$
+\begin{align}
+&(131) \;\;\;\; (k \cdot f(x))' = k \cdot f'(x) \\
+&(132) \;\;\;\; (f(x) + g(x))' = f'(x) + g'(x) \\
+&(133) \;\;\;\; (f(x) - g(x))' = f'(x) - g'(x) \\ 
+&(134) \;\;\;\; (f(x) \cdot g(x))' = f'(x) \cdot g(x) + f(x) \cdot g'(x) \\
+&(135) \;\;\;\; (f(a \cdot x + b))' = a \cdot f'(a \cdot x + b) \\
+&(136) \;\;\;\; (f(g(x)))' = f'(g(x)) \cdot g'(x) 
+\end{align}
+$$
+### Afledede funktioner
+
+|Funktionstype|Nummer|Funktion|Afledet funktion|
+|:-:|:-:|:-:|:-:|
+|Lineær funktion|(137)|$a \cdot x+b$|$a$|
+||(138)|$k$|$0$|
+|Logaritmefunktion|(139)|$\ln(x)$|$\frac{1}{x} = x^{-1}$|
+|Eksponentialfunktioner|(140)|$e^x$|$e^x$|
+||(141)|$e^{kx}$|$k \cdot e^{kx}$|
+||(142)|$a^x$|$a^x \cdot \ln(a)$|
+|Potensfunktioner|(143)|$x^a$|$a \cdot x^{a-1}$|
+||(144)|${1 \over x} = x^{-1}$|$-{1 \over x²} = -x^{-2}$|
+||(145)|$\sqrt{x} = x^{1 \over 2}$|${1 \over 2 \sqrt{x}} = {1 \over 2} x^{-{1 \over 2}}$|
+|Trigonometriske funktioner|(146)|$\cos(x)$|$-\sin(x)$|
+||(147)|$\sin(x)$|$\cos(x)$|
+
+### Stamfunktioner 
+|Funktionstype|Nummer|Funktion|Afledet funktion|
+|:-:|:-:|:-:|:-:|
+|Lineær funktion|(148)|$a$|$a \cdot x$|
+|Logaritmefunktion|(149)|$\ln(x)$|$x \cdot \ln(x) -x$|
+|Eksponentialfunktioner|(150)|$e^x$|$e^x$|
+||(151)|$e^{kx}$|${1 \over k} \cdot e^{kx}$|
+||(152)|$a^x$|$a^x \over \ln(a)$|
+|Potensfunktioner|(153)|$x^a$|${1 \over a+1} x^{a+1}$|
+||(154)|${1 \over x} = x^{-1}$|$\ln(\vert x \vert)$|
+||(155)|$\sqrt{x} = x^{1 \over 2}$|${2 \over 3} x \sqrt{x} = {2 \over 3} x^{3 \over 2}$|
+|Trigonometriske funktioner|(156)|$\cos(x)$|$\sin(x)$|
+||(157)|$\sin(x)$|$-\cos(x)$|

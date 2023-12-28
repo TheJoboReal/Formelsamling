@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "31c5480b88aada96",
@@ -164,18 +165,17 @@
   },
   "active": "4898cfc33952690a",
   "lastOpenFiles": [
-    "Mat Formelsamling/Screenshots/Pasted image 20231002002707.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231002001919.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231002001402.png",
     "Mat Formelsamling/Formelsamling mat.pdf",
     "Mat Formelsamling/Formelsamling Matematik.md",
-    "Mat Formelsamling/Screenshots/Pasted image 20231002001303.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231002001036.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231002000406.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231002000242.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231001235801.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231001235149.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231001234810.png",
-    "Mat Formelsamling/Screenshots/Pasted image 20231001233911.png"
+    "Mat Formelsamling/Screenshots/Pasted image 20231003191040.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003183933.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003183739.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003183609.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003181510.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003181448.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003181312.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003180914.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003175916.png",
+    "Mat Formelsamling/Screenshots/Pasted image 20231003174707.png"
   ]
 }
