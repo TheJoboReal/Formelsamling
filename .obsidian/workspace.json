@@ -18,24 +18,21 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "e09bf3706ed44b90",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "65c63dbe5ddb460b",
+            "id": "2b9418a6c1619298",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mat Formelsamling/Formelsamling mat.pdf"
+                "file": "Mat Formelsamling/Formelsamling Matematik.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "31c5480b88aada96",
@@ -163,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4898cfc33952690a",
+  "active": "2b9418a6c1619298",
   "lastOpenFiles": [
     "Mat Formelsamling/Formelsamling mat.pdf",
     "Mat Formelsamling/Formelsamling Matematik.md",

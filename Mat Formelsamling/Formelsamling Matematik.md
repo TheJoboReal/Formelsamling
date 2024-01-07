@@ -586,7 +586,7 @@ $$
 ||(147)|$\sin(x)$|$\cos(x)$|
 
 ### Stamfunktioner 
-|Funktionstype|Nummer|Funktion|Afledet funktion|
+|Funktionstype|Nummer|Funktion|Stamfunktion|
 |:-:|:-:|:-:|:-:|
 |Lineær funktion|(148)|$a$|$a \cdot x$|
 |Logaritmefunktion|(149)|$\ln(x)$|$x \cdot \ln(x) -x$|
@@ -598,3 +598,4 @@ $$
 ||(155)|$\sqrt{x} = x^{1 \over 2}$|${2 \over 3} x \sqrt{x} = {2 \over 3} x^{3 \over 2}$|
 |Trigonometriske funktioner|(156)|$\cos(x)$|$\sin(x)$|
 ||(157)|$\sin(x)$|$-\cos(x)$|
+
